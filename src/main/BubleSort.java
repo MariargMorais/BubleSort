@@ -15,6 +15,10 @@ public class BubleSort {
 		lista.add(7);
 		lista.add(8);
 
+		for (int a = 0; a < lista.size(); a++) {
+			System.out.println(lista.get(a));
+		}
+
 		for (int j = 0; j < lista.size() - 1; j++) {
 			for (int i = 0; i < lista.size() - 1; i++) {
 				if (lista.get(i) > lista.get(i + 1)) {
@@ -25,7 +29,7 @@ public class BubleSort {
 			}
 
 		}
-
+		System.out.println("Ordenada:");
 		for (int a = 0; a < lista.size(); a++) {
 			System.out.println(lista.get(a));
 		}
